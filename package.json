@@ -6,6 +6,7 @@
   "module": "dist/index.esm.js",
   "types": "typings/index.d.ts",
   "scripts": {
+    "dev": "node scripts/dev.js",
     "fix": "yarn lint:fix && yarn prettier:fix",
     "release": "semantic-release",
     "prepack": "yarn build",
